@@ -1,3 +1,4 @@
+'use strict';//调用严格模式
 var getErr = function (id) {
   if (!id) {
     throw new Error(id+ ' must be negative');
